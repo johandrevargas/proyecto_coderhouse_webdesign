@@ -4,3 +4,6 @@ En este proyecto (segunda entrega) se hace responsive  la página del index y la
 20230604 - Se corrigen errores en las páginas con el footer por fuera del body, se cambian los textos lorem, se corrigen errores en los menú hamburguesa por falta del link final de boostrap.
 
 20230605 - Se agregan keywords, description y favicon a todos los html, se comienza a aplicar sass. Queda listo el sass del navbar y del resets.
+
+20230606 - Se ajustaron todos los styles a scss, se ajustó el icono de whatsapp.
+

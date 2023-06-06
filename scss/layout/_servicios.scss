@@ -1,0 +1,30 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ imagenes pagina servicios ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.cards_servicios {
+    background-color: #eeee;
+    padding: 50px 14px;
+    text-align: center;
+}
+
+.card_body_servicios {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    background-color: #F0ECE3;
+    border: 1px solid #191919;
+    margin: 10px;      
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10% 30% 50% 70%;
+    } 
+
+    h2, p{
+        padding: 14px;
+    }
+}

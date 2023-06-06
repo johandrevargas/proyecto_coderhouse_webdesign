@@ -42,5 +42,81 @@ colores{
 
 /* ~~ Fin h1 ~~ */
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ Imagenes principales ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.imagenes_principales{
+    position: relative;
+    width: auto;
+    display: inline-block;
+    overflow: hidden
+}
+
+
+.imagenes_principales img{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+
+.texto_imagen_principal{
+    position: absolute;
+    bottom: -30%;
+    height: 10%;
+    width: 500px;
+    right: 0px;
+    background-color: #f3efe0;
+    color: #222222;
+    transform: translate(-50%, -50%);
+}
+
+
+.texto_imagen_derecha_abajo{
+    color: #f3efe0;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 20px;
+}
+
+/* ~~ Fin Imagenes ~~ */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ botones centrados ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+
+.d-grid a{
+    background-color: #434242;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wsp{
+    background-color: #22A39F;
+    transform: 2.5;
+} 
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ icono whatsapp ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+.wsp {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* ~~ Fin icono whatsapp ~~ */
+
 
 

@@ -34,27 +34,6 @@ colores {
 }
 
 /* ~~ Fin h1 ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~ navbar ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-.navbar {
-  font-size: large;
-  background-color: #f3efe0;
-}
-.navbar .d-inline-block {
-  width: 20%;
-  height: auto;
-  padding-top: 0px;
-}
-.navbar a {
-  text-decoration: none;
-  color: #22A39F;
-  font-size: 20px;
-  text-transform: uppercase;
-  display: flex;
-}
-
-/* ~~ Fin Top Navigation Bar ~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~ Imagenes principales ~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -91,82 +70,119 @@ colores {
 }
 
 /* ~~ Fin Imagenes ~~ */
-/* ~~~~~~~~~~~~ */
-/* ~~ Cards ~~ */
-/* ~~~~~~~~~~~~ */
-.cards {
-  background-color: rgba(238, 238, 238, 0.9333333333);
-  padding: 50px 15px;
-  text-align: center;
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ botones centrados ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+.d-grid a {
+  background-color: #434242;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.card_body img {
-  width: 100%;
-  height: 500px;
+.wsp {
+  background-color: #22A39F;
+  transform: 2.5;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ icono whatsapp ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+.wsp {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
   object-fit: cover;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 1;
+  cursor: pointer;
 }
 
-.card_body {
-  display: inline-block;
-  width: 30%;
-  text-align: left;
-  background-color: #F0ECE3;
-  border: 1px solid #191919;
-  margin: 10px;
-  position: relative;
+/* ~~ Fin icono whatsapp ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ navbar ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+.navbar {
+  font-size: large;
+  background-color: #f3efe0;
 }
-
-.card_body h2, .card_body p {
-  padding: 14px;
+.navbar .d-inline-block {
+  width: 20%;
+  height: auto;
+  padding-top: 0px;
 }
-
-/* ~~ Fin Cards ~~ */
-/* ~~~~~~~~~~~~ */
-/* ~~ Cajas ~~ */
-/* ~~~~~~~~~~~~ */
-.cajas {
-  padding: 50px 0;
+.navbar a {
+  text-decoration: none;
+  color: #22A39F;
+  font-size: 20px;
+  text-transform: uppercase;
   display: flex;
-  /* flex-direction:column;
-  flex-wrap: wrap; */
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 10px;
 }
 
-/* ~~ Fin Cajas ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~ imagenes pagina servicios ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.cards_servicios {
-  background-color: rgba(238, 238, 238, 0.9333333333);
-  padding: 50px 14px;
+/* ~~ Fin Top Navigation Bar ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ grid familia ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+.grid__familia {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-row: auto;
+  background-color: #22A39F;
+  padding: 10px;
+}
+
+.picture_familia {
+  width: 80%;
+  margin: auto;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
   text-align: center;
+  border: 0px;
+}
+.picture_familia p {
+  font-size: 20px;
+}
+.picture_familia img {
+  object-fit: contain;
 }
 
-.card_body_servicios img {
-  width: 100%;
-  height: 500px;
+.img-fluid {
+  height: 200px;
   object-fit: cover;
-  border-radius: 10% 30% 50% 70%;
+  max-width: 100%;
 }
 
-.card_body_servicios {
-  display: inline-block;
-  width: 30%;
-  text-align: left;
-  background-color: #F0ECE3;
-  border: 1px solid #191919;
-  margin: 10px;
-  position: relative;
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ map google Contacto ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+.col-sm-4 iframe {
+  width: 100%;
+  height: 100%;
 }
 
-.card_body_servicios h2, .card_body_servicios p {
-  padding: 14px;
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ Carrusel de nuestros clientes opinan ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.carousel-inner, .carousel-item, .carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
-/* ~~ Fin imagenes pagina servicios ~~ */
+.carousel-item img {
+  filter: brightness(50%);
+}
+
+.carousel-caption {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~ seccion nosotros ~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~ */
@@ -178,7 +194,6 @@ colores {
   justify-content: space-evenly;
   align-items: center;
 }
-
 .section_1_nosotros img {
   /* display: inline-block; */
   width: 40%;
@@ -187,7 +202,6 @@ colores {
   /*border-radius: 100%;*/
   padding: 30px;
 }
-
 .section_1_nosotros_contenido {
   /* display: inline-block; */
   width: 40%;
@@ -204,7 +218,6 @@ colores {
   justify-content: space-evenly;
   align-items: center;
 }
-
 .section_2_nosotros img {
   /* display: inline-block; */
   width: 40%;
@@ -213,7 +226,6 @@ colores {
   /*border-radius: 100%;*/
   padding: 30px;
 }
-
 .section_2_nosotros_contenido {
   /* display: inline-block; */
   width: 40%;
@@ -223,161 +235,75 @@ colores {
 }
 
 /* ~~ Fin seccion nosotros ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~ seccion familia pagina inicio ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.caja-principal body {
-  width: 100%;
-  min-height: 100vh;
-  background: #f2f0f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.caja-principal {
-  width: 80%;
-  max-width: 600px;
-  background: #fff;
-  border-radius: 10px;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-}
-
-.imagen {
-  flex-shrink: 0;
-  width: 150px;
-}
-
-.imagen img {
-  width: 100%;
-}
-
-/* ~~ Fin seccion familia pagina inicio ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~ icono whatsapp ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-.wsp {
-  width: 70px;
-  height: 70px;
-  border-radius: 100%;
-  object-fit: cover;
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  z-index: 1;
-  cursor: pointer;
-}
-
-/* ~~ Fin icono whatsapp ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~ cards contacto page ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-.cards_contacto {
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ imagenes pagina servicios ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.cards_servicios {
   background-color: rgba(238, 238, 238, 0.9333333333);
-  padding: 0;
+  padding: 50px 14px;
   text-align: center;
-  display: flex;
-  justify-content: center;
 }
 
-.card_body_contacto iframe {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  left: 0;
-}
-
-.card_body_contacto {
+.card_body_servicios {
   display: inline-block;
-  width: 100%;
-  text-align: center;
+  width: 30%;
+  text-align: left;
   background-color: #F0ECE3;
   border: 1px solid #191919;
-  margin: 0px;
+  margin: 10px;
   position: relative;
 }
-
-.card_body_contacto ul, .card_body_contacto p {
-  padding: 100px;
+.card_body_servicios img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10% 30% 50% 70%;
+}
+.card_body_servicios h2, .card_body_servicios p {
+  padding: 14px;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~ grid familia ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-.grid__familia {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-row: auto;
-  background-color: #22A39F;
-  padding: 10px;
-}
-
-.picture_familia {
-  background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+/* ~~~~~~~~~~~~ */
+/* ~~ Cards ~~ */
+/* ~~~~~~~~~~~~ */
+.cards {
+  background-color: rgba(238, 238, 238, 0.9333333333);
+  padding: 50px 15px;
   text-align: center;
-  border: 0px;
 }
 
-.picture_familia p {
-  font-size: 20px;
+.card_body {
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+  background-color: #F0ECE3;
+  border: 1px solid #191919;
+  margin: 10px;
+  position: relative;
 }
-
-.img-fluid {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
-
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~ botones centrados ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-.d-grid a {
-  background-color: #434242;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.col img {
+.card_body img {
   width: 100%;
-  height: 100%;
+  height: 500px;
   object-fit: cover;
 }
-
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~ map google Contacto ~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~ */
-.col-sm-4 iframe {
-  width: 100%;
-  height: 100%;
+.card_body h2, .card_body p {
+  padding: 14px;
 }
 
-.text-center {
-  background-color: rgba(0, 0, 0, 0.2);
+/* ~~~~~~~~~~~~ */
+/* ~~ Cajas ~~ */
+/* ~~~~~~~~~~~~ */
+.cajas {
+  padding: 50px 0;
+  display: flex;
+  /* flex-direction:column;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
 }
 
-.carousel-inner, .carousel-item, .carousel-item img {
-  height: 400px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.carousel-item img {
-  filter: brightness(50%);
-}
-
-.carousel-caption {
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-}
+/* ~~ Fin Cajas ~~ */
 
 /*# sourceMappingURL=style.css.map */

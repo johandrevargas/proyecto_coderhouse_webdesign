@@ -1,0 +1,38 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ grid familia ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+
+.grid__familia{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-row: auto;
+    background-color: #22A39F;
+    padding: 10px;
+}
+
+.picture_familia {
+    width: 80%;
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border: 0px;
+
+    p{
+        font-size: 20px;
+    }
+
+    img{
+        object-fit: contain;
+    }
+
+}
+
+
+.img-fluid{
+    height: 200px;
+    object-fit: cover;
+    max-width: 100%;
+}
