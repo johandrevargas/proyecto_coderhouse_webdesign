@@ -1,0 +1,11 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "En este proyecto (segunda entrega) se hace responsive  la página del index y la de contacto, se modifican algunos temas de diseño en las otras páginas, se mejora el footer, el navbar y se agrega un carrusel a la página contacto.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
