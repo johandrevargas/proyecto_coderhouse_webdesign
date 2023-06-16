@@ -1,6 +1,9 @@
 
 //IMPORT BASE
 @import 'base/resets';
+@import 'base/utilities';
+
+
 
 //IMPORT COMPONENTS
 @import 'components/navbar';
@@ -13,3 +16,4 @@
 @import 'layout/nosotros';
 @import 'layout/servicios';
 @import 'layout/tienda';
+@import 'layout/mediaqueries';

@@ -7,6 +7,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+h1 {
+  font-size: 20px;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~ Colores Referencia ~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -188,7 +192,7 @@ colores {
 /* ~~~~~~~~~~~~~~~~~~~~~~ */
 .section_1_nosotros {
   background-color: #F7F1E5;
-  /* display: inline-block; */
+  flex-direction: row;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -263,6 +267,12 @@ colores {
   padding: 14px;
 }
 
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+}
+
 /* ~~~~~~~~~~~~ */
 /* ~~ Cards ~~ */
 /* ~~~~~~~~~~~~ */
@@ -273,7 +283,7 @@ colores {
 }
 
 .card_body {
-  display: inline-block;
+  display: table-cell;
   width: 30%;
   text-align: left;
   background-color: #F0ECE3;
@@ -290,9 +300,9 @@ colores {
   padding: 14px;
 }
 
-/* ~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~ */
 /* ~~ Cajas ~~ */
-/* ~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~ */
 .cajas {
   padding: 50px 0;
   display: flex;
@@ -305,5 +315,42 @@ colores {
 }
 
 /* ~~ Fin Cajas ~~ */
+@media (max-width: 842px) {
+  .card_body img {
+    display: none;
+  }
+  .card_body p {
+    align-items: center;
+  }
+}
+@media (max-width: 710px) {
+  .card_body_servicios {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (max-width: 1500px) {
+  .section_1_nosotros {
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+  }
+  .section_1_nosotros h2, .section_1_nosotros p {
+    object-fit: cover;
+    text-align: center;
+  }
+}
+@media (max-width: 970px) {
+  .picture_familia {
+    flex-direction: column;
+    display: flex;
+  }
+  .picture_familia h2, .picture_familia p {
+    object-fit: cover;
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

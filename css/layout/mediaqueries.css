@@ -1,0 +1,39 @@
+@media (max-width: 842px) {
+  .card_body img {
+    display: none;
+  }
+  .card_body p {
+    align-items: center;
+  }
+}
+@media (max-width: 710px) {
+  .card_body_servicios {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (max-width: 1500px) {
+  .section_1_nosotros {
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+  }
+  .section_1_nosotros h2, .section_1_nosotros p {
+    object-fit: cover;
+    text-align: center;
+  }
+}
+@media (max-width: 970px) {
+  .picture_familia {
+    flex-direction: column;
+    display: flex;
+  }
+  .picture_familia h2, .picture_familia p {
+    object-fit: cover;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=mediaqueries.css.map */
