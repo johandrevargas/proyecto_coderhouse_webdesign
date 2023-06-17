@@ -34,17 +34,17 @@
 
     img {
         /* display: inline-block; */
-        width: 40%;
+        /*width: 100%;*/ 
         height: 700px;
-        object-fit: cover;
+        object-fit: cover; 
         /*border-radius: 100%;*/
-        padding: 30px;
+        /*padding: 30px;*/
     }
 
     &_contenido {
         /* display: inline-block; */
-        width: 40%;
-        padding: 50px;
+        /*width: 40%; */
+        padding: 20px;
         /* position: relative;
         bottom: 300px; */
     }
@@ -61,17 +61,17 @@
 
     img {
         /* display: inline-block; */
-        width: 40%;
+        /*width: 40%;*/
         height: 700px;
         object-fit: cover;
         /*border-radius: 100%;*/
-        padding: 30px;
+        /*padding: 30px;*/
     }
 
     &_contenido {
         /* display: inline-block; */
-        width: 40%;
-        padding: 50px;
+        /*width: 40%;*/
+        padding: 20px;
         /* position: relative;
         bottom: 300px; */
     }

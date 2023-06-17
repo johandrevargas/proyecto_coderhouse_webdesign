@@ -19,20 +19,38 @@
     flex-direction: column;
     display: flex;
     margin: 0;
+    align-items: center;
   }
-  .section_1_nosotros h2, .section_1_nosotros p {
+  .section_1_nosotros img {
     object-fit: cover;
+    object-position: center;
+    width: 90%;
+  }
+  .section_1_nosotros p, .section_1_nosotros h2 {
+    width: 90%;
+    text-align: center;
+  }
+}
+@media (max-width: 1500px) {
+  .section_2_nosotros {
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    align-items: center;
+  }
+  .section_2_nosotros img {
+    object-fit: cover;
+    object-position: center;
+    width: 90%;
+  }
+  .section_2_nosotros h2, .section_2_nosotros p {
+    width: 90%;
     text-align: center;
   }
 }
 @media (max-width: 970px) {
-  .picture_familia {
+  .grid__familia {
     flex-direction: column;
-    display: flex;
-  }
-  .picture_familia h2, .picture_familia p {
-    object-fit: cover;
-    text-align: center;
   }
 }
 

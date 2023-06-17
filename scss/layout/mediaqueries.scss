@@ -28,27 +28,50 @@
         flex-direction: column;
         display: flex;
         margin: 0;
+        align-items: center;
 
-        h2, p{
-
+        img{
             object-fit: cover;
+            object-position: center;
+            width:90%;
+        }
+
+        p, h2{
+            width:90%;
             text-align: center;
         }
-        
+
+    }
+}
+
+@media (max-width: 1500px) {
+
+    .section_2_nosotros{
+        flex-direction: column;
+        display: flex;
+        margin: 0;
+        align-items: center;        
+
+        img{
+            object-fit: cover;
+            object-position: center;
+            width:90%;
+        }
+
+        h2, p{
+            width:90%;
+            text-align: center;
+        }
+
     }
 }
 
 
+
 @media (max-width: 970px) {
 
-    .picture_familia{
+    .grid__familia{
         flex-direction: column;
-        display: flex;
-        h2, p{
-
-            object-fit: cover;
-            text-align: center;
-        }
     }
 }
 
