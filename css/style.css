@@ -216,6 +216,7 @@ colores {
 .section_2_nosotros img {
   height: 700px;
   padding: 10px;
+  width: 50%;
 }
 .section_2_nosotros_contenido {
   padding: 20px;
@@ -331,7 +332,7 @@ li {
     text-align: center;
   }
 }
-@media (max-width: 1500px) {
+@media (max-width: 1400px) {
   .section_2_nosotros {
     flex-direction: column;
     display: flex;
@@ -339,7 +340,7 @@ li {
     align-items: center;
   }
   .section_2_nosotros img {
-    /* object-fit: cover; */
+    object-fit: cover;
     object-position: center;
     width: 90%;
   }

@@ -8,3 +8,5 @@ En este proyecto (segunda entrega) se hace responsive  la página del index y la
 20230606 - Se ajustaron todos los styles a scss, se ajustó el icono de whatsapp.
 
 20230608 - Se ajusta la página Servicios, quitando el lorem ipsum.
+
+20230702 - El proyecto está listo para la entrega final.

@@ -44,7 +44,7 @@
     }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1400px) {
 
     .section_2_nosotros{
         flex-direction: column;
@@ -53,7 +53,7 @@
         align-items: center;        
 
         img{
-            /* object-fit: cover; */
+            object-fit: cover; 
             object-position: center;
             width:90%;
         }
